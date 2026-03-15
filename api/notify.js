@@ -28,7 +28,7 @@ Anomaly notifier-💻🔥
     content: ping ? "@everyone\n" + content : content
   };
 
-  await fetch("https://discord.com/api/webhooks/1447268606726639867/rbLol3db3UPeu2FnwLqWGFqbDl3jpI4IyChajEKLfhbjTy4Ml_328XKaous2UAl9WfyZ", {
+  await fetch("https://discord.com/api/webhooks/1455084311698214934/KvZgFXn0S-jdon25qGwbayS3JXwFexW70nKpgvSe6jCUCIMcpIBuy30CI5C2oLpxZf90", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload)
